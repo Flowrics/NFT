@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* ||| Primary colors ||| */
+/* ||| nuetral colors ||| */
+/* ||| fonts ||| */
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1.8rem;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.full-cont {
+  width: 34rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+.full-cont_img-cont {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.full-cont_img-cont_equi {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+.full-cont_img-cont_view {
+  display: none;
+}
+.full-cont_img-cont:hover > .full-cont_img-cont_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  border-radius: 1rem;
+  top: 0%;
+  cursor: pointer;
+}
+.full-cont_img-cont:hover > .full-cont_img-cont_view {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.full-cont_content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.full-cont_content_h {
+  font-size: 2.2rem;
+  color: hsl(0, 0%, 100%);
+}
+.full-cont_content_h:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.full-cont_content_clock-eth {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+.full-cont_content_clock-eth_eth {
+  display: flex;
+  align-items: center;
+}
+.full-cont_content_clock-eth_eth_svg {
+  margin-right: 0.5rem;
+}
+.full-cont_content_clock-eth_eth_p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.full-cont_content_clock-eth_clock {
+  display: flex;
+  align-items: center;
+}
+.full-cont_content_clock-eth_clock_svg {
+  margin-right: 0.5rem;
+}
+.full-cont_content_footer {
+  display: flex;
+  align-items: center;
+}
+.full-cont_content_footer_img {
+  width: 3.5rem;
+  margin-right: 2rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.full-cont_content_footer_p_span {
+  color: hsl(0, 0%, 100%);
+}
+.full-cont_content_footer_p_span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
